@@ -7,7 +7,6 @@
 }
 
 .header {
-  font-size: 1.4rem;
   height: 7rem;
   background-color: white;
   border-bottom: 1px solid var(--color-grey-light-2);
@@ -45,12 +44,14 @@
   box-shadow: var(--shadow-light);
   flex: 0 0 60%;
   margin-right: 4.5rem;
-  font-size: 1.4rem;
   padding: 2rem;
   text-align: justify;
 }
 
 .user-reviews {
-  background-color: green;
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
